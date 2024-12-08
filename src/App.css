@@ -1,0 +1,46 @@
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+/* Container for the awards section */
+
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .award-card {
+      width: 200px;
+      height: 250px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .award-card {
+      width: 150px;
+      height: 200px;
+    }
+  
+    .award-section-header {
+      font-size: 20px;
+    }
+  }
+
+/* Adjust as per your footer height */
+/* Adjust as per your navbar height */
+/* body {
+  padding-top: 70px;        
+  padding-bottom: 50px;       
+} */
+
+/* .container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+} */
